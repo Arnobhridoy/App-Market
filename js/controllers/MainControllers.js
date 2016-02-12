@@ -1,0 +1,36 @@
+/**
+ * Created by arnob on 1/10/16.
+ */
+
+
+
+app.controller('MainController', ['$scope', function($scope) {
+
+
+    $scope.apps = [
+        {
+            icon: './img/skype.jpg',
+            title: 'Skype - free IM & video calls',
+            developer: 'Skype',
+            price: 3
+        },
+        {
+            icon: './img/Viber.jpg',
+            title: 'Viber',
+            developer: 'Viber Media S.à r.l. ',
+            price: 2
+        },
+        {
+            icon: './img/watsapp.jpg',
+            title: 'WhatsApp Messenger',
+            developer: 'WhatsApp Inc',
+            price: 1.99
+        },
+        {
+            icon: './img/imo.jpg',
+            title: ' imo free video calls and chat',
+            developer: 'Forecast',
+            price: 1.5
+        }
+    ]
+}]);
